@@ -1,4 +1,4 @@
-# Deliverable 1 [GROUP NAME]
+# Deliverable 2 [GROUP NAME]
 
 ### Authors
 
@@ -13,10 +13,15 @@
 2. [Individual Reflections](#2-individual-reflections)
 3. [Meeting Overview](#3-meeting-overview)
 4. [Design](#4-design)
-   1. [High-Level Class Diagram](#41-high-level-class-diagram)
-   2. [Use Case Diagram](#42-use-case-diagram)
-   3. [Design Principles](#43-design-principles)
-   4. [Design Constraints](#44-design-constraints)
+   1. [Updated Design](#41-updated-design)
+      1. [High-Level Class Diagram](#411-high-level-class-diagram)
+      2. [Use Case Diagram](#412-use-case-diagram)
+      3. [Design Principles](#413-design-principles)
+      4. [Design Constraints](#414-design-constraints)
+   2. [New Design](#42-new-design)
+      1. [Architectural Design](#421-architectural-design)
+      2. [Activity Diagram](#422-activity-diagram)
+      3. [UI Sketch](#423-ui-sketch)
 5. [Review](#5-review)
 
 ---
@@ -112,9 +117,11 @@ Summary of meetings held, including dates, how long the meeting was, who attende
 
 ## 4. Design
 
-#### 4.1 High-Level Class Diagram
+### 4.1 Updated Design
 
-> Include image of high-level class diagram showing the main classes/entities and their relationships.
+#### 4.1.1 High-Level Class Diagram
+
+> Include updated image of high-level class diagram showing the main classes/entities and their relationships.
 
 ![High-Level Class Diagram](/img_resources/default_image.jpg)
 
@@ -124,9 +131,9 @@ Summary of meetings held, including dates, how long the meeting was, who attende
 
 ---
 
-#### 4.2 Use Case Diagram
+#### 4.1.2 Use Case Diagram
 
-> Show main Actors and system functionalities.
+> Show updated ain Actors and system functionalities.
 
 ![Use Case Diagram](/img_resources/default_image.jpg)
 
@@ -136,11 +143,11 @@ Summary of meetings held, including dates, how long the meeting was, who attende
 
 ---
 
-#### 4.3 Design Principles
+#### 4.1.3 Design Principles
 
 > Identify which design principles (e.g., from SOLID, KISS) you plan to apply and where you might use them.
 
-Analysis goes here.
+Updated analysis goes here.
 
 ---
 
@@ -148,11 +155,55 @@ Analysis goes here.
 
 ---
 
-#### 4.4 Design Constraints
+#### 4.1.4 Design Constraints
 
 > Identify design constraints for the system that you should take into consideration.
 
-Analysis goes here.
+Updated analysis goes here.
+
+---
+
+[Return to Top](#deliverable-1-group-name)
+
+---
+
+### 4.2 New Design
+
+#### 4.2.1 Architectural Design
+
+> Now that you understand your system's components, choose and illustrate an architecture (e.g., layered, client-server) that fits your system. Include a diagram, brief description, and your reasoning.
+
+![Architectural Design Diagram](/img_resources/default_image.jpg)
+
+Describe your architecture design.
+
+Supply your reasoning for this decision.
+
+---
+
+[Return to Top](#deliverable-1-group-name)
+
+---
+
+#### 4.2.2 Activity Diagram
+
+> Illustrate a key user workflow (from one Use Case).
+
+Identify which Use Case and Work Flow this represents.
+
+![Activity Diagram](/img_resources/default_image.jpg)
+
+---
+
+[Return to Top](#deliverable-1-group-name)
+
+---
+
+#### 4.2.3 UI Sketch
+
+> Provide a rough sketch of the workflow from your AD. The UI sketch can be hand drawn or digital; focus on layout and main features, not visual polish. This may require multiple images.
+
+![UI Sketch](/img_resources/default_image.jpg)
 
 ---
 
@@ -162,7 +213,9 @@ Analysis goes here.
 
 ## 5. Review
 
-Unused for Deliverable 1.
+> What was the main feedback received from peers/instructors, and what did you change based on it?
+
+Describe feedback and changes here.
 
 ---
 
