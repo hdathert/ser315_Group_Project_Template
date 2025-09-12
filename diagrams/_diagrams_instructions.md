@@ -1,8 +1,5 @@
 What I still need to cover here:
 
-- How to set up Mermaid editors
-  - IDEA
-  - Browser
 - How to export diagrams as images
   - IDEA
   - Browser
@@ -70,7 +67,28 @@ open a Mermaid preview window should appear.
 
 ### 1.2. IDEA
 
+![Full Workspace](/img_resources/InstructionImages/mermaid_idea_overview.png)
+
+IntelliJ IDEA is a full-fledged IDE created by JetBrains. It is geared
+specifically towards Java development, and is widely lauded as a smart and
+efficient workspace for development. It isn't free, but for students a
+free educational license can be acquired easily that will grant access
+to all of their products, which only needs to be updated every year. I
+would strongly suggest picking it up- its easily cross-platform and works
+great. It, like VSCode, supports extensions via Plugins. A Mermaid plugin
+developed by the IntelliJ team is linked below:
+
 [Plugin Link (JETBRAINS Marketplace)](https://plugins.jetbrains.com/plugin/20146-mermaid)
+
+Boot up IDEA and install this plugin. It will give you syntax
+highlighting, autocomplete, and a nice preview window that usually will
+open automatically, but if it doesn't, you can click on the button marked
+below (in the top-right corner of the workspace, middle button):
+
+![Preview Button](/img_resources/InstructionImages/mermaid_idea_previewbutton.png)
+
+The preview will automatically update as you type, just like the VSCode
+preview window.
 
 ---
 
@@ -80,6 +98,28 @@ open a Mermaid preview window should appear.
 
 ### 1.3. Browser
 
+![Mermaid Live Editor Overview](/img_resources/InstructionImages/mermaid_live_overview.png)
+
+An alternative option is to just use the Mermaid.Live editor. This browser
+solution gives you a small code editor and chart preview window, and
+includes features for saving and editing charts as you go.
+
+[Mermaid.Live Browser Editor](https://mermaid.live)
+
+> NOTE: Because this is browser based, there is no simple method for
+> tracking via Git. You'll have to copy from Git into the live editor,
+> and paste back to save changes to the Repo.
+
+On the left hand side of the screen you have a code editor, which features
+syntax highlighting and some autocomplete, but I have noticed in my
+testing that the feature is finicky and can be error prone. Styling of
+the chart can be managed in the `Config` tab over the code window.
+Styling is outside of the scope of this overview, but there are plenty
+of resources on how to change the look and feel of a chart.
+
+Chart rendering is done on the right-hand side. You can zoom in and out,
+moving the view around with mouse functions.
+
 ---
 
 [Return to Top](#mermaid-diagram-instructions)
@@ -87,6 +127,10 @@ open a Mermaid preview window should appear.
 ---
 
 ## 2. How to Export Diagrams as Images
+
+The best way to get these diagrams into your deliverables is to save them
+as images and embed them into your MarkDown document. Below describes the
+methods for doing that on different platforms.
 
 ### 2.1. VSCode
 
