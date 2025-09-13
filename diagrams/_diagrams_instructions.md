@@ -1,9 +1,3 @@
-What I still need to cover here:
-
-- How to export diagrams as images
-  - IDEA
-  - Browser
-
 # Mermaid Diagram Instructions
 
 Description goes here
@@ -162,6 +156,26 @@ For example:
 
 ### 2.2. IDEA
 
+Unfortunately, the IDEA Mermaid plugin does not contain any built-in
+functionality for directly saving diagrams as images. However, you can use
+any screen capture tool to do this anyway.
+
+On Windows, the default keybind for taking a screen capture is
+`Windows+Shift+S` which brings up the screen snip tool. This saves to
+your clipboard and can be pasted into your file explorer in IDEA directly.
+Alternatively, you can open the Screen Snip application which functions
+similarly, and that allows you to do some basic editing and save out
+directly to a file.
+
+On Mac, you can screen snip with the key command `Shift+Cmd+4` or
+`Shift+Cmd+5`. Screenshots should be saved to the desktop by default,
+which can be moved later to your Git project directory.
+
+Linux users have access to screen snipping tools, but depend on the distro
+and window environment, which should be easy to find documentation on,
+but do to the variety of tools and methods, is outside of the scope of
+this document.
+
 ---
 
 [Return to Top](#mermaid-diagram-instructions)
@@ -169,6 +183,25 @@ For example:
 ---
 
 ### 2.3. Browser
+
+The Mermaid Live Editor has support for directly saving charts out to
+images.
+
+![Mermaid Live Actions Tab](/img_resources/InstructionImages/mermaid_live_Actions.png)
+
+Under the code window, there is an Actions tab. You might have to click on the tab to make it appear. From here, you can export to all sorts of
+formats, and even can embed the diagram directly into MarkDown using the
+`Copy MarkDown` button.
+
+To save an image, you can click on the `PNG` or `SVG` buttons, as well as
+copy the image. I've found for best results that hitting the button to
+open the diagram in the browser gives the most accurate image render to
+download. This is the button right next to the `PNG` button:
+
+![Mermaid Live Export](/img_resources/InstructionImages/mermaid_live_export.png)
+
+From there, you can save the image to disc like any other image from a
+browser directly into your Git repository.
 
 ---
 
