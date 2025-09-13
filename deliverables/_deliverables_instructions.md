@@ -188,8 +188,9 @@ maintain.
 
 A further overview of how to create, edit, and integrate Mermaid diagrams can
 be found in the `diagrams` folder of this repo. Inside, there is an
-Instructions document, and examples of the main diagrams you'll need for this
-project in the `diagrams/examples` folder.
+[Instructions document](/diagrams/_diagrams_instructions.md), and examples of
+the main diagrams you'll need for this project in the `diagrams/examples`
+folder.
 
 ---
 
