@@ -1,6 +1,24 @@
 # Mermaid Diagram Instructions
 
-Description goes here
+Mermaid is a text-based diagramming tool that lets you create diagrams by
+writing code instead of using drag-and-drop interfaces. Unlike
+traditional diagramming tools, Mermaid lets you write diagrams as code,
+making them easy to version control, collaborate on, and maintain
+alongside your project documentation.
+
+This document provides an overview of working with Mermaid diagrams and
+covers the basic setup, creation, and embedding process for your projects.
+I'll go over three common development environments: VSCode, IntelliJ
+IDEA, and browser-based editing. Each has its own setup process and
+workflow, so you can choose what works best for your situation.
+
+The examples folder contains example Mermaid source demonstrating use
+and syntax for creating Use Case, Activity, and Class diagrams, which
+you will be creating and maintaining for this project.
+
+By reading this and examining the example code, you should come away
+with a good understanding of how to use Mermaid for this project and
+future projects at ASU that require UML diagrams.
 
 ### Contents
 
