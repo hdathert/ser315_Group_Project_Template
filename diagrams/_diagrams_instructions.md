@@ -30,7 +30,7 @@ program seems to be a worthwhile endeavor to set up.
 
 ### 1.1. VSCode
 
-![Full Workspace](/img_resources/InstructionImages/mermaid_vsCode_preview2.png)
+![Full Workspace](InstructionImages/mermaid_vsCode_preview2.png)
 
 VSCode is a free code editor by Microsoft which is increasingly popular
 due to its free nature and broad extendability through its Extensions
@@ -44,7 +44,7 @@ the ability to code in `.mmd` files with syntax highlighting and some
 basic intellisense features (but those are extremely limited without
 logging in). Logging in is not necessary to get the features we need.
 
-![Command Palette](/img_resources/InstructionImages/mermaid_vsCode_preview.png)
+![Command Palette](InstructionImages/mermaid_vsCode_preview.png)
 
 To get started once installed, simply create a new file with the `.mmd`
 file extension, or open one of the examples in the `/examples/` folder.
@@ -61,7 +61,7 @@ open a Mermaid preview window should appear.
 
 ### 1.2. IDEA
 
-![Full Workspace](/img_resources/InstructionImages/mermaid_idea_overview.png)
+![Full Workspace](InstructionImages/mermaid_idea_overview.png)
 
 IntelliJ IDEA is a full-fledged IDE created by JetBrains. It is geared
 specifically towards Java development, and is widely lauded as a smart and
@@ -79,7 +79,7 @@ highlighting, autocomplete, and a nice preview window that usually will
 open automatically, but if it doesn't, you can click on the button marked
 below (in the top-right corner of the workspace, middle button):
 
-![Preview Button](/img_resources/InstructionImages/mermaid_idea_previewbutton.png)
+![Preview Button](InstructionImages/mermaid_idea_previewbutton.png)
 
 The preview will automatically update as you type, just like the VSCode
 preview window.
@@ -92,7 +92,7 @@ preview window.
 
 ### 1.3. Browser
 
-![Mermaid Live Editor Overview](/img_resources/InstructionImages/mermaid_live_overview.png)
+![Mermaid Live Editor Overview](InstructionImages/mermaid_live_overview.png)
 
 An alternative option is to just use the Mermaid.Live editor. This browser
 solution gives you a small code editor and chart preview window, and
@@ -135,13 +135,13 @@ purposes, we'll select `.png`. A standard file explorer will ask you
 where to save the image. Make sure you save it in a folder tracked by Git
 and with a descriptive name.
 
-![VSCode Mermaid Export](/img_resources/InstructionImages/mermaid_vsCode_export.png)
+![VSCode Mermaid Export](InstructionImages/mermaid_vsCode_export.png)
 
 Once this is done, an image will be saved of the chart which can be
 embedded into MarkDown or any other document editor you may want to use.
 For example:
 
-![Use Case Diagram Example](/img_resources/InstructionImages/mermaid_vscode_exportExample.png)
+![Use Case Diagram Example](InstructionImages/mermaid_vscode_exportExample.png)
 
 > Note: The export image size and dimensions are based off of the preview
 > window size. If you have too much whitespace, change the size of the
@@ -187,7 +187,7 @@ this document.
 The Mermaid Live Editor has support for directly saving charts out to
 images.
 
-![Mermaid Live Actions Tab](/img_resources/InstructionImages/mermaid_live_Actions.png)
+![Mermaid Live Actions Tab](InstructionImages/mermaid_live_Actions.png)
 
 Under the code window, there is an Actions tab. You might have to click on the tab to make it appear. From here, you can export to all sorts of
 formats, and even can embed the diagram directly into MarkDown using the
@@ -198,7 +198,7 @@ copy the image. I've found for best results that hitting the button to
 open the diagram in the browser gives the most accurate image render to
 download. This is the button right next to the `PNG` button:
 
-![Mermaid Live Export](/img_resources/InstructionImages/mermaid_live_export.png)
+![Mermaid Live Export](InstructionImages/mermaid_live_export.png)
 
 From there, you can save the image to disc like any other image from a
 browser directly into your Git repository.
@@ -249,7 +249,7 @@ for this project.
 
 To embed Mermaid into MarkDown, you use the following syntax:
 
-![Mermaid Embedded Code](/img_resources/InstructionImages/mermaid_embed_code.png)
+![Mermaid Embedded Code](InstructionImages/mermaid_embed_code.png)
 
 With the ` ``` ` surrounding normal Mermaid syntax, with mermaid after the
 opening triple-backtick, which in some editors will render as:
