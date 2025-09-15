@@ -46,6 +46,17 @@ Description!
 
 Download, unzip, navigate, open CLI, etc...
 
+Make sure to write in the specific command line arguments needed to run the
+software, surrounded by back-ticks: `
+
+For example, compiling the project might look like:
+
+`javac Main.java ClassOne.java ClassTwo.java`
+
+and the command to run it might look like this:
+
+`java Main`
+
 ---
 
 [Return to Top](#ser315-project-implementation-readme)
