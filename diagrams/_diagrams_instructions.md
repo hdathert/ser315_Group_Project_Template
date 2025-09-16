@@ -82,7 +82,7 @@ open a Mermaid preview window should appear.
 ![Full Workspace](/img_resources/InstructionImages/mermaid_idea_overview.png)
 
 IntelliJ IDEA is a full-fledged IDE created by JetBrains. It is geared
-specifically towards Java development, and is widely lauded as a smart and
+specifically towards Java, and is widely lauded as a smart and
 efficient workspace for development. It isn't free, but for students a
 free educational license can be acquired easily that will grant access
 to all of their products, which only needs to be updated every year. I

@@ -386,7 +386,7 @@ extension installed.
 
 ### 6.2 IDEA
 
-IntelliJ's IDEA IDE comes with full Markdown support out of the box, including
+IntelliJ IDEA IDE comes with full Markdown support out of the box, including
 an exporter.
 
 ![IDEA Main Menu](/img_resources/InstructionImages/pdf-idea-menu.png)
