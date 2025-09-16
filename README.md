@@ -1,14 +1,17 @@
 ## Work in progress.
 
-What I need to cover here:
-
-- Basic Git
-  - Fork, Clone, collaborate
-  - Commit, Push, Pull
-
 # ASU SER315 Group Project Template
 
-Introduction
+Welcome to SER315's Group Project Template! This comprehensive template and
+guide was created to help you navigate your first big group project of this
+degree path at ASU! Below, you'll find an overview of what this repository is,
+why it was created, and how to use it. Additionally, you will find a brief
+tutorial for getting started with Git and GitHub, which is a easy way to
+enable seamless collaboration with your teammates.
+
+Any issues or concerns with this repository can be communicated to your
+instruction team, which we will take on to make this template as useful and
+helpful as possible!
 
 ### Contents
 
@@ -19,8 +22,8 @@ Introduction
 5. [Basic Git](#5-basic-git)
    1. [Project Setup](#51-project-setup)
       1. [Set Up Git User and SSH Key](#511-set-up-git-user-and-ssh-keysh-key)
-      1. [`git fork`](#512-git-fork)
-      1. [`git clone`](#513-git-clone)
+      2. [`git fork`](#512-git-fork)
+      3. [`git clone`](#513-git-clone)
    2. [Collaboration](#52-collaboration)
       1. [`git pull`](#521-git-pull)
       2. [`git commit`](#522-git-commit)
@@ -410,9 +413,42 @@ make changes to as you see fit!
 
 ### 5.2 Collaboration
 
+That was a lot of work to set up! But it's all worth it for the ability to
+work alongside your peers and collaborate easily and effectively! In this
+next section, we'll go over the basic Git commands that will enable this, and
+how to work with them.
+
 ---
 
 #### 5.2.1 `git pull`
+
+When you open up your project each day to begin working, the first thing
+you'll want to do is Pull down any changes that your team mates have been
+working on. Your local workspace is in a different state than the Remote
+workspace, so doing this keeps you up to date with your team.
+
+To do this, open Bash in your root project folder, and type in:
+
+`git pull origin main`
+
+You will be prompted for your SSH passcode, and then Git will pull down any
+changes to the project and ensure you're up to date.
+
+`git pull` is a combination of two Git functions: `fetch` and `merge`.
+`fetch` pulls down all changes from the remote repository, but keeps them
+separate from your workspace. `merge` attempts to merge those changes into
+your local space to make sure you are fully up to date. If you had already
+made changes to some files before pulling down, you may need to resolve some
+conflicts between your local codebase and the remote one. Git will walk you
+through the process for each file, and you need to decided what parts that
+are conflicting need to be kept or removed. Ideally, Git can handle this
+merge fully automatically without intervention, but sometimes it gets
+confused and you need to help it out.
+
+The ins and outs of merge conflicts are outside the scope of this document,
+but you can find more detailed information about how to resolve those
+conflicts
+[here](https://git-scm.com/docs/git-merge#_how_to_resolve_conflicts).
 
 ---
 
@@ -422,6 +458,53 @@ make changes to as you see fit!
 
 #### 5.2.2 `git commit`
 
+Commits are the workhorse of Git, and are fundamental to the process. A commit
+is a snapshot of changes to your project in a specific time- keeping track
+of files changed, added, or deleted over time. Commits and their history allow
+us to track the development of software over time, and if something goes
+terribly wrong, revert back to a version that works. This is the core idea
+behind version control.
+
+It's best practice to commit your work in small chunks as you go. If you make
+a change to a file or function, commit it! It's easier to understand changes
+when they are small and incremental, rather than when they're huge and
+overbearing.
+
+A commit is made up of two pieces: a manifest of changes and a message.
+
+The manifest is created automatically by tracking changes you've made to a
+file. This is not done automatically, and must be manually done. To add a file
+to a commit, you use the command:
+
+`git add [filename.extension]`
+
+This adds that file to the commit's staging area. Additionally, you can use
+
+`git add .`
+
+to stage all files in the entire project at once.
+
+Once your changes are staged, you are ready to commit them. Prepare a commit
+message. There are some best practices when writing commit messages that will
+be more thoroughly explained in SER316, but for now just make sure you are
+being descriptive enough with these that they're readable by **everyone**.
+
+Some good examples are:
+
+`Adds class diagram for user management system` or
+`Updates deliverable 2 with activity diagram and team reflection`. Basically,
+you want to start with a verb for what the commit is doing, and describe what
+the commit does, not why. Use present tense, be specific, but concise,
+limiting to around 50 characters.
+
+Once that is ready, we can go ahead and make the commit! Type into your shell:
+
+`git commit -m "[INSERT MESSAGE HERE]"`
+
+Git will then add that commit to the ledger for the `main` branch. From here,
+you can work on the next feature, or send your changes up to the remote
+repository!
+
 ---
 
 [Return to Top](#asu-ser315-group-project-template)
@@ -430,6 +513,25 @@ make changes to as you see fit!
 
 #### 5.2.3 `git push`
 
+When you're done working for the day, or when you feel like its appropriate,
+you can send your local changes to the repository up to the remote one. This
+gives your teammates access to all the work you've put in, and allows them
+to continue iterating on the project artifacts.
+
+Pushing is very straightforward. Into your shell, type:
+
+`git push origin main`
+
+This will ask for your SSH passcode, and then send all of your changes up to
+the remote repository's `main` branch.
+
+##### RISKS
+
+It is likely that another teammate might have pushed changes up before
+you did. When you're doing a push, it's best practice to pull down
+beforehand to make sure there are no conflicts, and resolve any that do
+appear. Once all conflicts are dealt with, pushing should be near automatic.
+
 ---
 
 [Return to Top](#asu-ser315-group-project-template)
@@ -437,6 +539,38 @@ make changes to as you see fit!
 ---
 
 ### 5.3 Further Git Resources
+
+Git is extremely powerful and has incredible depth, and this document really
+only scraps the surface of what is possible. If you're interested in learning
+more before you take courses on it, here are some good resources and topics
+to look into.
+
+#### Branches
+
+Git allows you to branch development, so people can work on features in tandem
+without impacting the main branch. This allows you to have a functioning
+`main` branch for the public, while new features and things that need testing
+can live on separate branches and merge into `main` when they're ready. This
+is a great workflow to ensure as few conflicts as possible, but is out of the
+scope of this project. It will be required in SER316 though, so if you want a
+brief overview, this
+[article](https://medium.com/@jacoblogan98/understanding-git-branching-5d01f3dda541)
+has a pretty solid overview of the concept.
+
+#### VSCode Git Integration
+
+VSCode has built-in support for Git and also has GitHub integration features.
+An overview of those features and how to set that up can be found
+[here](https://www.qed42.com/insights/how-to-use-git-in-vs-code).
+
+#### IDEA Git Integration
+
+IDEA also contains built-in Git support, with a lot of really neat features
+that are all accessible by the IDEA UI. More information about that can be
+found
+[here](https://medium.com/@vino7tech/mastering-git-and-github-integration-in-intellij-idea-a-complete-guide-to-version-control-7cf68cd7951a).
+There are also many tutorial videos out there for those who are visual
+learners, as this writeup doesn't do much showing and more telling.
 
 ---
 
