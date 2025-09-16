@@ -401,6 +401,11 @@ Name the file, make sure the format is PDF, double check where you're saving
 it to (the default is the same folder the `.md` file is in), and click
 `Export`.
 
+> **NOTE**: IDEA's exporter is theme dependant, meaning the look of the
+> exported PDF will change based on your theme. It is suggested for the best
+> look to change your IDEs theme to a 'light mode' theme of some kind before
+> exporting!
+
 ![IDEA Save MD](/img_resources/InstructionImages/pdf-idea-save.png)
 
 That will save the PDF for you! Unlike the VSCode extension, this
