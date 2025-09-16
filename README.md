@@ -1,5 +1,3 @@
-## Work in progress.
-
 # ASU SER315 Group Project Template
 
 Welcome to SER315's Group Project Template! This comprehensive template and
